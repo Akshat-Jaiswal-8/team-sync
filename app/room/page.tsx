@@ -8,9 +8,11 @@ import {
   RoomAudioRenderer,
   ControlBar,
   useTracks,
+  Chat,
 } from "@livekit/components-react";
 import { Track } from "livekit-client";
 import { useEffect, useState } from "react";
+import ChatSection from "@/components/ChatSection";
 
 export default function Page() {
   const [room, setRoom] = useState("");
@@ -62,6 +64,7 @@ export default function Page() {
         <RoomAudioRenderer />
         <ControlBar />
       </div>
+      <ChatSection />
     </LiveKitRoom>
   );
 }

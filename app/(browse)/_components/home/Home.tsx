@@ -9,20 +9,22 @@ const Home = () => {
       <div className={"grid grid-cols-2"}>
         <div>
           <h1 className={"text-6xl mb-12 font-bold flex-col space-y-4"}>
-            <div>Learn!</div>
+            <div>Connect!</div>
             <div
               className={
                 "bg-clip-text text-transparent bg-gradient-to-br dark:from-blue-500 dark:to-violet-300 from-amber-600 to-amber-500"
               }
             >
-              Explore!
+              Collaborate!
             </div>
-            <div>Upskill!</div>
+            <div>Conquer!</div>
           </h1>
           <p className={"text-xl mb-12"}>
-            Team Sync is the largest and fast-growing community of technology
-            innovators, including ,startups ,working-professionals, freelancers
-            and student innovators
+            Introducing Team Sync - the ultimate hackathon hub. Connect
+            effortlessly with peers, mentors, and hackathons. Find your perfect
+            team based on difficulty, tech stack, and location. No more
+            platform-hopping - mentors are just a tap away. Dive into innovation
+            with all hackathons listed here.
           </p>
           <div className={"inline-flex space-x-6"}>
             <HomeLink href={"HackathonSec"} name={"Explore Hackathons"} />

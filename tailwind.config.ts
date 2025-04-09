@@ -21,6 +21,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        nautigal: "The Nautigal",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
